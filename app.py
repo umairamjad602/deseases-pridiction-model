@@ -41,12 +41,12 @@ lung_cancer_model = joblib.load('models/lung_cancer_model.sav')
 with st.sidebar:
     selected = option_menu('FYP', [
         'Disease Prediction',
-        # 'Diabetes Prediction',
+        'Diabetes Prediction',
         'Heart disease Prediction',
         # 'Parkison Prediction',
         # 'Liver prediction',
         # 'Hepatitis prediction',
-        # 'Lung Cancer Prediction',
+        'Lung Cancer Prediction',
         # 'Chronic Kidney prediction',
         # 'Breast Cancer Prediction',
 
